@@ -1,0 +1,22 @@
+		/* AUTHOR */
+
+	Me: Matthias Jordan
+	Contact: me [at] iammatthias.com
+	Twitter: @iammatthias
+	From: Santa Monica, California, USA
+
+		/* BUILT WITH */
+
+	[HarpJS](http://harpjs.com)
+	[Milligram](http://milligram.github.io)
+	[Surge](https://surge.sh)
+	[humans.txt](http://humanstxt.org)
+	[Google Webmaster](http://www.google.com/webmasters/)
+
+
+		/* SITE */
+
+	Last update: 04/20/2016
+	Language: English
+	Doctype:HTML5
+	IDE: Atom, Chrome, Safari, Github
