@@ -1,0 +1,1021 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns          { margin-left: 8.66666666667%; }
+  .offset-by-two.column,
+  .offset-by-two.columns          { margin-left: 17.3333333333%; }
+  .offset-by-three.column,
+  .offset-by-three.columns        { margin-left: 26%;            }
+  .offset-by-four.column,
+  .offset-by-four.columns         { margin-left: 34.6666666667%; }
+  .offset-by-five.column,
+  .offset-by-five.columns         { margin-left: 43.3333333333%; }
+  .offset-by-six.column,
+  .offset-by-six.columns          { margin-left: 52%;            }
+  .offset-by-seven.column,
+  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+  .offset-by-eight.column,
+  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+  .offset-by-nine.column,
+  .offset-by-nine.columns         { margin-left: 78.0%;          }
+  .offset-by-ten.column,
+  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns     { margin-left: 52%; }
+
+}
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Niconne", cursive, "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  text-align: center;
+  background-color: aliceblue;}
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 4.0rem; line-height: 1;  letter-spacing: -.1rem; }
+h4 { font-size: 3.4rem; line-height: .25; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 5.6rem; }
+  h4 { font-size: 5.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+p {
+  margin-top: 0; }
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB; }
+a:hover {
+  color: #0FA0CE; }
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: circle inside; }
+ol {
+  list-style: decimal inside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+li {
+  margin-bottom: 1rem; }
+
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem; }
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+/*Christmas Tree*/
+
+
+
+
+
+#christmas {
+  background: #162a4e;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBjMWQzOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFhMzE1OCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0c1d38), color-stop(100%, #1a3158));
+  background-image: -moz-linear-gradient(#0c1d38, #1a3158);
+  background-image: -webkit-linear-gradient(#0c1d38, #1a3158);
+  background-image: linear-gradient(#0c1d38, #1a3158);
+  position: relative;
+  width: 182px;
+  height: 182px;
+  margin: 50px auto;
+  overflow: hidden;
+  /* iOS hack for border radius bleed with transforms */
+  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+}
+#christmas .ground {
+  -moz-border-radius-topright: 130px 40px;
+  -webkit-border-top-right-radius: 130px 40px;
+  border-top-right-radius: 130px 40px;
+  position: absolute;
+  width: 123px;
+  height: 61px;
+  left: 0;
+  bottom: 0;
+  background: white;
+}
+#christmas .ground:before {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  content: " ";
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  top: 10px;
+  right: -60px;
+  background: white;
+}
+#christmas .ground:after {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  content: " ";
+  position: absolute;
+  width: 90px;
+  height: 70px;
+  top: 5px;
+  right: -75px;
+  background: white;
+}
+#christmas .tree {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent #23915b transparent;
+}
+#christmas .tree:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent #23915b transparent;
+}
+#christmas .tree:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent #23915b transparent;
+}
+#christmas .tree.left {
+  left: 75px;
+  bottom: 67px;
+  border-width: 0 18px 24px 18px;
+}
+#christmas .tree.left:before {
+  top: 10px;
+  left: -21px;
+  border-width: 0 21px 28px 21px;
+}
+#christmas .tree.left:after {
+  top: 22px;
+  left: -24px;
+  border-width: 0 24px 32px 24px;
+}
+#christmas .tree.left .snow {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow:    -13px 17px 0 1px white, -16px 19px 0 0 white, -9px 16px 0 0 white, -5px 15px 0 2px white, -9px 13px 0 0 white, 6px 15px 0 2px white, 0 13px 0 1px white, 11px 14px 0 1px white, 13px 17px 0 1px white, 15px 19px 0 0 white;
+  -webkit-box-shadow:     -13px 17px 0 1px white, -16px 19px 0 0 white, -9px 16px 0 0 white, -5px 15px 0 2px white, -9px 13px 0 0 white, 6px 15px 0 2px white, 0 13px 0 1px white, 11px 14px 0 1px white, 13px 17px 0 1px white, 15px 19px 0 0 white;
+  box-shadow:     -13px 17px 0 1px white, -16px 19px 0 0 white, -9px 16px 0 0 white, -5px 15px 0 2px white, -9px 13px 0 0 white, 6px 15px 0 2px white, 0 13px 0 1px white, 11px 14px 0 1px white, 13px 17px 0 1px white, 15px 19px 0 0 white;
+  position: absolute;
+  top: 1px;
+  left: -3px;
+  width: 6px;
+  height: 6px;
+  z-index: 1;
+}
+#christmas .tree.left .snow:after {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: -14px 14px 0 0 white, -15px 17px 0 1px white, -18px 19px 0 0 white, -9px 16px 0 0 white, -5px 15px 0 2px white, -9px 13px 0 0 white, 6px 15px 0 2px white, 0 13px 0 1px white, 12px 17px 0 3px white, 16px 17px 0 1px white, 18px 19px 0 0 white, 11px 20px 0 1px white, 16px 20px 0 1px white, 18px 22px 0 1px white, 21px 25px 0 0 white, -2px 27px 0 1px white;
+  -webkit-box-shadow: -14px 14px 0 0 white, -15px 17px 0 1px white, -18px 19px 0 0 white, -9px 16px 0 0 white, -5px 15px 0 2px white, -9px 13px 0 0 white, 6px 15px 0 2px white, 0 13px 0 1px white, 12px 17px 0 3px white, 16px 17px 0 1px white, 18px 19px 0 0 white, 11px 20px 0 1px white, 16px 20px 0 1px white, 18px 22px 0 1px white, 21px 25px 0 0 white, -2px 27px 0 1px white;
+  box-shadow: -14px 14px 0 0 white, -15px 17px 0 1px white, -18px 19px 0 0 white, -9px 16px 0 0 white, -5px 15px 0 2px white, -9px 13px 0 0 white, 6px 15px 0 2px white, 0 13px 0 1px white, 12px 17px 0 3px white, 16px 17px 0 1px white, 18px 19px 0 0 white, 11px 20px 0 1px white, 16px 20px 0 1px white, 18px 22px 0 1px white, 21px 25px 0 0 white, -2px 27px 0 1px white;
+  content: " ";
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  width: 6px;
+  height: 6px;
+  z-index: 1;
+}
+
+
+
+#christmas .star {
+    color: yellow;
+    position: absolute;
+    z-index: 10;
+    left: -7.5px;
+    top: -13px;
+    animation: star-shine 4s infinite ease-in-out;
+}
+
+
+
+
+#christmas .lights {
+    height:1px;
+    width:1px;
+    background: yellow;
+    z-index: 10;
+    position:absolute;
+  }
+  #christmas .light1 {
+    top:7px;
+    left:-1px;
+    animation: twinkletwinkle 1s 1s infinite ease-in-out;
+  }
+  #christmas .light2 {
+    top:9px;
+    left:-2px;
+      background: #FF4640;
+    animation: twinkletwinkle 6s 1s infinite ease-in-out;
+  }
+ #christmas .light3 {
+    top:9px;
+    left:-4px;
+     background: #45EFFF;
+    animation: twinkletwinkle 5s 1s infinite ease-in-out;
+  }
+ #christmas .light4 {
+    top:8px;
+    left:3px;
+    animation: twinkletwinkle 4s 1s infinite ease-in-out;
+  }
+ #christmas .light5 {
+    top:10px;
+    left:-7px;
+     background: #FF4640;
+    animation: twinkletwinkle 3s 1s infinite ease-in-out;
+  }
+ #christmas .light6 {
+    top:10px;
+    left:6px;
+     background: #45EFFF;
+    animation: twinkletwinkle 2s 1s infinite ease-in-out;
+  }
+
+  #christmas .light7 {
+    top:26px;
+    left:5px;
+    animation: twinkletwinkle 1s 1s infinite ease-in-out;
+  }
+  #christmas .light8 {
+    top:24px;
+    left:-2px;
+      background: #FF4640;
+    animation: twinkletwinkle 6s 1s infinite ease-in-out;
+  }
+ #christmas .light9 {
+    top:24px;
+    left:-4px;
+     background: #45EFFF;
+    animation: twinkletwinkle 5s 1s infinite ease-in-out;
+  }
+ #christmas .light10 {
+    top:23px;
+    left:1px;
+    animation: twinkletwinkle 4s 1s infinite ease-in-out;
+  }
+ #christmas .light11 {
+    top:25px;
+    left:-9px;
+     background: #FF4640;
+    animation: twinkletwinkle 3s 1s infinite ease-in-out;
+  }
+ #christmas .light12 {
+    top:26px;
+    left:9px;
+     background: #45EFFF;
+    animation: twinkletwinkle 2s 1s infinite ease-in-out;
+  }
+
+
+
+
+#christmas .flake {
+  -webkit-animation: snow infinite linear 30s;
+  -moz-animation: snow infinite linear 30s;
+  -ms-animation: snow infinite linear 30s;
+  -o-animation: snow infinite linear 30s;
+  animation: snow infinite linear 30s;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: white;
+}
+#christmas .flake.large {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+}
+#christmas .flake.f-1 {
+  -webkit-animation-duration: 20s;
+  -moz-animation-duration: 20s;
+  -ms-animation-duration: 20s;
+  -o-animation-duration: 20s;
+  animation-duration: 20s;
+  left: 15px;
+  margin-top: 86px;
+}
+#christmas .flake.f-2 {
+  -webkit-animation-duration: 23s;
+  -moz-animation-duration: 23s;
+  -ms-animation-duration: 23s;
+  -o-animation-duration: 23s;
+  animation-duration: 23s;
+  left: 32px;
+  margin-top: 52px;
+}
+#christmas .flake.f-3 {
+  -webkit-animation-duration: 32s;
+  -moz-animation-duration: 32s;
+  -ms-animation-duration: 32s;
+  -o-animation-duration: 32s;
+  animation-duration: 32s;
+  left: 64px;
+  margin-top: 15px;
+}
+#christmas .flake.f-4 {
+  -webkit-animation-duration: 21s;
+  -moz-animation-duration: 21s;
+  -ms-animation-duration: 21s;
+  -o-animation-duration: 21s;
+  animation-duration: 21s;
+  left: 69px;
+  margin-top: 34px;
+}
+#christmas .flake.f-5 {
+  -webkit-animation-duration: 24s;
+  -moz-animation-duration: 24s;
+  -ms-animation-duration: 24s;
+  -o-animation-duration: 24s;
+  animation-duration: 24s;
+  left: 70px;
+  margin-top: 72px;
+}
+#christmas .flake.f-6 {
+  -webkit-animation-duration: 16s;
+  -moz-animation-duration: 16s;
+  -ms-animation-duration: 16s;
+  -o-animation-duration: 16s;
+  animation-duration: 16s;
+  left: 90px;
+  margin-top: 97px;
+}
+#christmas .flake.f-7 {
+  -webkit-animation-duration: 34s;
+  -moz-animation-duration: 34s;
+  -ms-animation-duration: 34s;
+  -o-animation-duration: 34s;
+  animation-duration: 34s;
+  left: 102px;
+  margin-top: 81px;
+}
+#christmas .flake.f-8 {
+  -webkit-animation-duration: 37s;
+  -moz-animation-duration: 37s;
+  -ms-animation-duration: 37s;
+  -o-animation-duration: 37s;
+  animation-duration: 37s;
+  left: 102px;
+  margin-top: 40px;
+}
+#christmas .flake.f-9 {
+  -webkit-animation-duration: 35s;
+  -moz-animation-duration: 35s;
+  -ms-animation-duration: 35s;
+  -o-animation-duration: 35s;
+  animation-duration: 35s;
+  left: 108px;
+  margin-top: 67px;
+}
+#christmas .flake.f-10 {
+  -webkit-animation-duration: 23s;
+  -moz-animation-duration: 23s;
+  -ms-animation-duration: 23s;
+  -o-animation-duration: 23s;
+  animation-duration: 23s;
+  left: 90px;
+  margin-top: 11px;
+}
+#christmas .flake.f-11 {
+  -webkit-animation-duration: 27s;
+  -moz-animation-duration: 27s;
+  -ms-animation-duration: 27s;
+  -o-animation-duration: 27s;
+  animation-duration: 27s;
+  left: 126px;
+  margin-top: 55px;
+}
+#christmas .flake.f-12 {
+  -webkit-animation-duration: 29s;
+  -moz-animation-duration: 29s;
+  -ms-animation-duration: 29s;
+  -o-animation-duration: 29s;
+  animation-duration: 29s;
+  left: 131px;
+  margin-top: 27px;
+}
+#christmas .flake.f-13 {
+  -webkit-animation-duration: 24s;
+  -moz-animation-duration: 24s;
+  -ms-animation-duration: 24s;
+  -o-animation-duration: 24s;
+  animation-duration: 24s;
+  left: 128px;
+  margin-top: 112px;
+}
+#christmas .flake.f-14 {
+  -webkit-animation-duration: 23s;
+  -moz-animation-duration: 23s;
+  -ms-animation-duration: 23s;
+  -o-animation-duration: 23s;
+  animation-duration: 23s;
+  left: 146px;
+  margin-top: 72px;
+}
+#christmas .flake.f-15 {
+  -webkit-animation-duration: 19s;
+  -moz-animation-duration: 19s;
+  -ms-animation-duration: 19s;
+  -o-animation-duration: 19s;
+  animation-duration: 19s;
+  left: 147px;
+  margin-top: 102px;
+}
+#christmas .flake.f-16 {
+  -webkit-animation-duration: 22s;
+  -moz-animation-duration: 22s;
+  -ms-animation-duration: 22s;
+  -o-animation-duration: 22s;
+  animation-duration: 22s;
+  left: 166px;
+  margin-top: 100px;
+}
+#christmas .flake.f-17 {
+  -webkit-animation-duration: 18s;
+  -moz-animation-duration: 18s;
+  -ms-animation-duration: 18s;
+  -o-animation-duration: 18s;
+  animation-duration: 18s;
+  left: 177px;
+  margin-top: 73px;
+}
+#christmas .flake.f-18 {
+  -webkit-animation-duration: 26s;
+  -moz-animation-duration: 26s;
+  -ms-animation-duration: 26s;
+  -o-animation-duration: 26s;
+  animation-duration: 26s;
+  left: 22px;
+  margin-top: 79px;
+}
+#christmas .flake.f-19 {
+  -webkit-animation-duration: 20s;
+  -moz-animation-duration: 20s;
+  -ms-animation-duration: 20s;
+  -o-animation-duration: 20s;
+  animation-duration: 20s;
+  left: 31px;
+  margin-top: 41px;
+}
+#christmas .flake.f-20 {
+  -webkit-animation-duration: 19s;
+  -moz-animation-duration: 19s;
+  -ms-animation-duration: 19s;
+  -o-animation-duration: 19s;
+  animation-duration: 19s;
+  left: 38px;
+  margin-top: 56px;
+}
+#christmas .flake.f-21 {
+  -webkit-animation-duration: 31s;
+  -moz-animation-duration: 31s;
+  -ms-animation-duration: 31s;
+  -o-animation-duration: 31s;
+  animation-duration: 31s;
+  left: 56px;
+  margin-top: 43px;
+}
+#christmas .flake.f-22 {
+  -webkit-animation-duration: 20s;
+  -moz-animation-duration: 20s;
+  -ms-animation-duration: 20s;
+  -o-animation-duration: 20s;
+  animation-duration: 20s;
+  left: 89px;
+  margin-top: 57px;
+}
+#christmas .flake.f-23 {
+  -webkit-animation-duration: 18s;
+  -moz-animation-duration: 18s;
+  -ms-animation-duration: 18s;
+  -o-animation-duration: 18s;
+  animation-duration: 18s;
+  left: 90px;
+  margin-top: 30px;
+}
+#christmas .flake.f-24 {
+  -webkit-animation-duration: 28s;
+  -moz-animation-duration: 28s;
+  -ms-animation-duration: 28s;
+  -o-animation-duration: 28s;
+  animation-duration: 28s;
+  left: 100px;
+  margin-top: 119px;
+}
+#christmas .flake.f-25 {
+  -webkit-animation-duration: 29s;
+  -moz-animation-duration: 29s;
+  -ms-animation-duration: 29s;
+  -o-animation-duration: 29s;
+  animation-duration: 29s;
+  left: 114px;
+  margin-top: 14px;
+}
+#christmas .flake.f-26 {
+  -webkit-animation-duration: 25s;
+  -moz-animation-duration: 25s;
+  -ms-animation-duration: 25s;
+  -o-animation-duration: 25s;
+  animation-duration: 25s;
+  left: 127px;
+  margin-top: 84px;
+}
+#christmas .flake.f-27 {
+  -webkit-animation-duration: 26s;
+  -moz-animation-duration: 26s;
+  -ms-animation-duration: 26s;
+  -o-animation-duration: 26s;
+  animation-duration: 26s;
+  left: 134px;
+  margin-top: 114px;
+}
+#christmas .flake.f-28 {
+  -webkit-animation-duration: 34s;
+  -moz-animation-duration: 34s;
+  -ms-animation-duration: 34s;
+  -o-animation-duration: 34s;
+  animation-duration: 34s;
+  left: 145px;
+  margin-top: 49px;
+}
+#christmas .flake.f-29 {
+  -webkit-animation-duration: 29s;
+  -moz-animation-duration: 29s;
+  -ms-animation-duration: 29s;
+  -o-animation-duration: 29s;
+  animation-duration: 29s;
+  left: 148px;
+  margin-top: 42px;
+}
+#christmas .flake.f-30 {
+  -webkit-animation-duration: 23s;
+  -moz-animation-duration: 23s;
+  -ms-animation-duration: 23s;
+  -o-animation-duration: 23s;
+  animation-duration: 23s;
+  left: 157px;
+  margin-top: 70px;
+}
+#christmas .flake.f-31 {
+  -webkit-animation-duration: 18s;
+  -moz-animation-duration: 18s;
+  -ms-animation-duration: 18s;
+  -o-animation-duration: 18s;
+  animation-duration: 18s;
+  left: 165px;
+  margin-top: 78px;
+}
+
+@-webkit-keyframes snow {
+  0% {
+    -moz-transform: translateY(-110px);
+    -ms-transform: translateY(-110px);
+    -webkit-transform: translateY(-110px);
+    transform: translateY(-110px);
+  }
+  100% {
+    -moz-transform: translateY(160px);
+    -ms-transform: translateY(160px);
+    -webkit-transform: translateY(160px);
+    transform: translateY(160px);
+  }
+}
+@-moz-keyframes snow {
+  0% {
+    -moz-transform: translateY(-110px);
+    -ms-transform: translateY(-110px);
+    -webkit-transform: translateY(-110px);
+    transform: translateY(-110px);
+  }
+  100% {
+    -moz-transform: translateY(160px);
+    -ms-transform: translateY(160px);
+    -webkit-transform: translateY(160px);
+    transform: translateY(160px);
+  }
+}
+@-ms-keyframes snow {
+  0% {
+    -moz-transform: translateY(-110px);
+    -ms-transform: translateY(-110px);
+    -webkit-transform: translateY(-110px);
+    transform: translateY(-110px);
+  }
+  100% {
+    -moz-transform: translateY(160px);
+    -ms-transform: translateY(160px);
+    -webkit-transform: translateY(160px);
+    transform: translateY(160px);
+  }
+}
+@keyframes snow {
+  0% {
+    -moz-transform: translateY(-110px);
+    -ms-transform: translateY(-110px);
+    -webkit-transform: translateY(-110px);
+    transform: translateY(-110px);
+  }
+  100% {
+    -moz-transform: translateY(160px);
+    -ms-transform: translateY(160px);
+    -webkit-transform: translateY(160px);
+    transform: translateY(160px);
+  }
+}
+
+@keyframes star-shine {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+@keyframes twinkletwinkle {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
