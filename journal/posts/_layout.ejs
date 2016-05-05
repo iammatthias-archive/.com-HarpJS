@@ -35,7 +35,7 @@
   <li ><a href="/">Home</a></li>
   <li><a href="/#clientwork">Client Work</a></li>
   <li><a href="/#opensource">Open Source</a></li>
-  <li><a href="/blog">Journal</a></li>
+  <li><a href="/journal">Journal</a></li>
   <li><a href="#">Contact</a></li>
 </ul>
 </nav>
@@ -56,9 +56,12 @@
         </div>
         <div class="row">
             <div class="column blognav">
-              <h1 class="f3"><a href="/journal" id="blogtitle">← Back To Journal</a></h1>
-              <% for(var slug in public.journal.posts._data){ %>
-                <h1 class="f3"><a href="/blog/journal/<%= slug %>"><%= public.journal.posts._data[slug].title %></a></h1>
+  <h1 class="f3"><a href="/journal" id="blogtitle">← Back To Journal</a></h1>
+              <% for(var slug in public.journal.posts._data);
+    var keys = Object.keys(public.journal.posts._data);
+        for(var i=0; i<Math.min(4,keys.length); i++){ %>
+                <h1 class="f3"><a href="<%- keys[i] %>"><%= public.journal.posts._data[keys[i]].title %><br />
+                <span class="f4"><%= public.journal.posts._data[keys[i]].date %></span></a></h1>
               <% }; %>
             </div>
       </div>

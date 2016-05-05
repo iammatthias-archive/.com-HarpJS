@@ -11,9 +11,11 @@
     </div>
 
         <div class="column blognav">
-          <% for(var slug in public.journal.posts._data){ %>
-            <h1 class="f3"><a href="posts/<%= slug %>"><%= public.journal.posts._data[slug].title %><br />
-            <span class="f4"><%= public.journal.posts._data[slug].date %></span></a></h1>
+          <% for(var slug in public.journal.posts._data);
+var keys = Object.keys(public.journal.posts._data);
+    for(var i=0; i<Math.min(4,keys.length); i++){ %>
+            <h1 class="f3"><a href="posts/<%- keys[i] %>"><%= public.journal.posts._data[keys[i]].title %><br />
+            <span class="f4"><%= public.journal.posts._data[keys[i]].date %></span></a></h1>
           <% }; %>
         </div>
   </div>

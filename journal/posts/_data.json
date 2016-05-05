@@ -2,6 +2,13 @@
   "rss": {
     "layout": false
   },
+  "jukebox": {
+    "title": "Jukebox",
+    "date": "May 5th, 2016",
+    "author": "matthias-jordan",
+    "description": "Multi-source, cross platform streaming app. Allows for one device to “drive” while others connect to add songs to a communal playlist.",
+    "tags": ["mean", "github", "heroku"]
+  },
   "pm-tools": {
     "title": "Product Management Tools",
     "date": "April 19, 2016",
