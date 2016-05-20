@@ -17,3 +17,15 @@ $(document).ready(function() {
 }, 900, 'swing');
     });
 });
+
+
+$(document).ready(function(){
+    $('#example1').Chocolat(
+  {
+
+fullWindow: true,
+container: window,
+setTitle: 'People',
+}
+);
+});
