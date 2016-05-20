@@ -1,6 +1,6 @@
 iammatthias.com
 ======
-**http://iammatthias.com** is my personal website. It has projects I've worked on, a blog where I say things, and soon will have a collection of my photography. 
+**http://iammatthias.com** is my personal website. It has a small collection of open source work, client projects, and my photography. 
 
 ## Technology
 * [Milligram CSS](https://milligram.github.io)
