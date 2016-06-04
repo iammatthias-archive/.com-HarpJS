@@ -29,17 +29,30 @@
     <script>
        Macy.init({
         container: '.gallery',
-        trueOrder: false,
+        trueOrder: true,
         waitForImages: false,
         margin: 24,
-        columns: 4,
+        columns: 6,
         breakAt: {
-          1200: 4,
-          940: 3,
+          1600: 6,
+          1200: 5,
+          940: 4,
           520: 2,
           400: 1
         }
       });
+
+$(document).ready(function(){
+    $('#example1').Chocolat(
+  {
+
+fullWindow: true,
+container: window,
+setTitle: 'People',
+}
+);
+});
+
     </script>
 
 </body>
