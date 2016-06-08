@@ -1,0 +1,9 @@
+{
+    "index" : {
+"title": "The Media Room",
+"description": "TMR wanted their companies brochure to be turned into a responsive single page static site. We built it using Hugo.",
+"name": "Matthias Jordan",
+"email": "me@iammatthias.com",
+"uri": "iammatthias.com"
+}
+}

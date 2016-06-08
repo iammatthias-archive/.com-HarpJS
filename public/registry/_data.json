@@ -1,0 +1,9 @@
+{
+    "index" : {
+"title": "HarpJS Theme Registry",
+"description": "A simple registry that lives on Github/Surge.sh and can be updated via an addition to the _data.json file.",
+"name": "Matthias Jordan",
+"email": "me@iammatthias.com",
+"uri": "iammatthias.com"
+}
+}

@@ -1,0 +1,24 @@
+{
+    "globals": {
+        "title": "I AM MATTHIAS",
+        "description": "Product Management, Photography, and more.",
+        "name": "Matthias Jordan",
+        "email": "me@iammatthias.com",
+        "uri": "iammatthias.com",
+
+        "meta": {
+            "title": "I AM MATTHIAS",
+            "description": "A Harp boilerplate that uses `.ejs` instead of `.jade`."
+        },
+
+        "config": {
+            "assets": {
+                "folder_css"    : "/assets/css",
+                "folder_js"     : "/assets/js",
+                "folder_bower"  : "/assets/vendor",
+                "folder_img"  : "/assets/img",
+                "folder_shared"  : "/_shared"
+            }
+        }
+    }
+}

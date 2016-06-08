@@ -1,0 +1,37 @@
+
+
+<section class="hero is-fullheight">
+  <!-- Hero header: will stick at the top -->
+<div class="container">
+  <h1 class="title">
+    PHOTOGRAPHY
+  </h1>
+  <h2 class="subtitle">
+
+  </h2>
+</div>
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container ">
+    <div class="columns is-centered">
+  <div class="column is-one-third-tablet is-three-quarters-desktop is-centered">
+
+
+<div class="gallery" >
+<% for(var i in public.assets.img.gal.events._contents){ %>
+  <% var image = public.assets.img.gal.events._contents[i] %>
+  <% if ( image.match(/\b.(jpg|bmp|jpeg|gif|png|tif)\b/gi) ) { %>
+      <a class="swipebox" href="/assets/img/gal/events/<%= image %>">
+      <img class="lazy" src="/assets/img/gal/events/<%= image %>" /></a>
+  <% } %>
+<% } %>
+</div>
+
+
+
+</div>
+  </div>
+</div>
+</div>
+
+</section>

@@ -1,0 +1,24 @@
+{
+    "name" : "iammatthias",
+    "description" : "Replacing Milligram with Bulma.",
+    "author" : {
+        "name" : "Matthias Jordan",
+        "url" : "http://iammatthias.com"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : ""
+    },
+    "keywords" : [
+        "marcomontalbano",
+        "harp",
+        "boilerplate",
+        "ejs",
+        "test",
+        "bower"
+    ],
+
+    "dependencies" : {
+
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- partial("/../../_shared/_head") %>
+        <%- partial("/../../_shared/_header") %>
+    </head>
+    <body>
+<section class="hero is-fullheight"
+>
+  <!-- Hero header: will stick at the top -->
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container">
+    <div class="columns is-centered">
+  <div class="column is-one-third-tablet is-5-desktop has-text-left">
+        <h1 class="title">
+        <%= title %><br />
+
+        </h1>
+        <h6>
+        <%= date %>
+        </h6>
+        <p>
+        <%= description %>
+        </p>
+</div>
+  <div class="column is-one-third-tablet is-5-desktop has-text-left">
+      <%- yield %>
+</div>
+
+
+  </div>
+</div>
+</div>
+
+
+</section>
+
+    </body>
+</html>
