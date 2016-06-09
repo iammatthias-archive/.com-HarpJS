@@ -1,0 +1,9 @@
+.DS_Store
+*.swp
+Thumbs.db
+.Trashes
+/www
+/www/CNAME
+/public/CNAME
+/assets/img/gal
+/www/assets/img/gal
