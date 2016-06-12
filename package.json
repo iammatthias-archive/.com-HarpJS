@@ -16,9 +16,10 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "harp": "^0.20.3",
     "surge": "^0.18.0"
   },
-"scripts": {
-  "test": "echo \"Error: no test specified.\""
-}
+  "scripts": {
+    "test": "echo \"Error: no test specified.\""
+  }
 }
