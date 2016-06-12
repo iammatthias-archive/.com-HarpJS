@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<title>I AM MATTHIAS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Product Management, Photography, and more.">
+
+<!-- CSS -->
+<link href="/assets/css/main.css" media="all" rel="stylesheet" />
+
+<!-- 3rd party libraries -->
+
+<link href="/assets/vendor/cookiebar/cookieBar.css">
+<link href="/assets/vendor/swipebox/src/css/swipebox.css">
+<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="all" rel="stylesheet" />
+
+    </head>
+    <body>
+        <section class="hero is-small">
+  <!-- Hero header: will stick at  the top -->
+
+  <div class="hero-head">
+    <header class="nav">
+      <div class="container">
+        <div class="nav-left">
+          <a class="nav-item">
+            <a class="nav-item" href="/">I AM MATTHIAS</a>
+          </a>
+        </div>
+        <span class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="nav-right nav-menu">
+          <a class="nav-item" href="/">Home</a>
+          <a class="nav-item" href="/#client">Work</a>
+          <a class="nav-item" href="/photo">Photography</a>
+          <a class="nav-item" href="/bio">Bio</a>
+          <a class="nav-item" href="/journal">Journal</a>
+
+        </div>
+      </div>
+    </header>
+  </div>
+</section>
+
+        <h1>jquery.cookieBar</h1><p>A simple, lightweight jQuery plugin for creating a notification bar that is dismissable and dismiss is saved by cookie. Perfect for implementing the new eu cookielaw! - example available on [gh-pages] (<a href="http://carlwoodhouse.github.com/jquery.cookieBar">http://carlwoodhouse.github.com/jquery.cookieBar</a>)</p>
+<p>Uses: <a href="https://github.com/carhartl/jquery-cookie">jQuery.Cookie</a> - bundled, no need to reference.</p>
+<h2>Installation</h2><p>Include script <em>after</em> the jQuery library</p>
+<pre><code>&lt;script src=&quot;/path/jquery.cookieBar.js&quot;&gt;&lt;/script&gt;
+</code></pre><p>If you want the default styles also include the css, if not feel free to style it as you see wish!</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;cookieBar.css&quot;&gt;
+</code></pre><h2>Usage</h2><p>Create a cookiebar with no markup whatsoever! it&#39;s like magic ...</p>
+<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+    $(document).ready(function() {
+      $.cookieBar();
+    });
+&lt;/script&gt;
+</code></pre><p>Or, create your cookiebar markup from a simple container, example:</p>
+<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+    $(document).ready(function() {
+      $(&#39;.cookie-message&#39;).cookieBar();
+    });
+&lt;/script&gt;
+
+&lt;div class=&quot;cookie-message&quot;&gt;
+    The government says i have to tell you i use cookies, so here it is
+&lt;/div&gt;
+</code></pre><p>Or, create your cookiebar markup from a simple container with an advanced button, example:</p>
+<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+    $(document).ready(function() {
+      $(&#39;.cookie-message&#39;).cookieBar({ closeButton : &#39;.my-close-button&#39; });
+    });
+&lt;/script&gt;
+
+&lt;div class=&quot;cookie-message&quot;&gt;
+    The government says i have to tell you i use cookies, so here it is &lt;a class=&quot;my-close-button&quot; href&gt;cheers!&lt;/a&gt;
+&lt;/div&gt;
+</code></pre><p>Full Example
+    Check out example.html in the repository or visit our [github-page] (<a href="http://carlwoodhouse.github.com/jquery.cookieBar">http://carlwoodhouse.github.com/jquery.cookieBar</a>)</p>
+<h2>Options</h2><p><strong>closeButton</strong> - Define a close button for the bar</p>
+<pre><code>closeButton: &#39;none&#39;
+</code></pre><p><em>Default: a close button will be added automagically</em></p>
+<p><strong>secure</strong> - Define if the cookie transmission requires secure protocal (https)</p>
+<pre><code>secure: true
+</code></pre><p><em>Default: false</em></p>
+<p> <strong>path</strong> - Define the path the cookie is valid for</p>
+<pre><code>path: &#39;/path/for/cookie&#39;
+</code></pre><p><em>Default: &#39;/&#39; (site wide)</em></p>
+<p><strong>domain</strong> - Define the domain the cookie operates on</p>
+<pre><code>domain: &#39;domain.com&#39;
+</code></pre><p><em>Default: domain cookie was created on</em></p>
+<h2>Authors</h2><ul>
+<li><a href="https://github.com/carlwoodhouse">Carl Woodhouse</a></li>
+<li><a href="https://github.com/craighamnett">Craig Hamnett</a></li>
+</ul>
+
+        
+<!-- 3rd party libraries -->
+<script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+
+<script src="/assets/js/scrollspy.min.js"></script>
+
+<script src="/assets/vendor/cookiebar/jquery.cookieBar.js"></script>
+
+<script src="/assets/vendor/macy/dist/macy.js"></script>
+
+<script src="/assets/vendor/swipebox/src/js/jquery.swipebox.js"></script>
+
+<script src="/assets/vendor/jquery.lazyload/jquery.lazyload.js"></script>
+<!-- -->
+
+
+
+<script src="/assets/js/application.js"></script>
+
+
+<script src="https://use.typekit.net/kdk2urz.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    </body>
+</html>
