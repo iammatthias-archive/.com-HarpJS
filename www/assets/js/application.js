@@ -71,11 +71,7 @@ $( '.swipebox' ).swipebox( {
 
 // cookiebar
 $.cookieBar = function( options ) {
-$('.hero-head').prepend('<section class="hero is-danger is-small"><div style="font-size: 10px; margin: 5px 0; padding: 5px 75px;" class="cookie-message"><p style="line-height: 5%;">Actively seeking <em><b>product management</b></em> contracts and full time positions. <a style="color:#fff" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#64;&#105;&#97;&#109;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#46;&#99;&#111;&#109;"><u>Get in touch</u></a> or say "hello" to <a style="color:#fff" href="/bot"><u>MatthiasBot!</u></a></p><br><a style="color:#fff;" class="my-close-button" href><u>CLOSE</u></a></div></section>');
-$('.cookie-message').cookieBar({ closeButton : '.my-close-button' });
-};
-
-$.cookieBar();
+$('.hero-head').prepend('<section class="hero is-danger is-small"><div style="font-size: 10px; margin: 5px 0; padding: 5px 75px;" class="cookie-message"><p>Actively seeking <em><b>product management</b></em> contracts and full time positions. <a style="color:#fff; line-height: 5%;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#64;&#105;&#97;&#109;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#46;&#99;&#111;&#109;"><u>Get in touch</u></a> or say "hello" to <a style="color:#fff" href="/bot"><u>MatthiasBot!</u></a><br><a style="color:#fff;" class="my-close-button" href><u>CLOSE</u></a></p></div></section>');
 
 
 $("img.lazy").lazyload();
