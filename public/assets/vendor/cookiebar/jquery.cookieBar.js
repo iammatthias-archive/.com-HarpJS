@@ -10,7 +10,7 @@
 (function( $ ){
   $.fn.cookieBar = function( options ) {
 	var settings = $.extend( {
-      'closeButton' : 'none',
+      'closeButton' : 'my-close-button',
 	  'secure' : false,
 	  'path' : '/',
 	  'domain' : ''
