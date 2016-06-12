@@ -20,9 +20,9 @@ In fall 2015 I decided that I needed to switch paths. I love photography, it rem
 
 - [Bulma](http://bulma.io) is a fairly new, modern CSS framework based on Flexbox. You can use it as a single CSS file, or mess with the SASS source itself. It's lightweight, and has some pretty impressive features.
 
-- [Surge.sh](https://surge.sh) is the bee's knees. Surge lets you publish HTML, CSS, and JS for free, without leaving the command line. It's remarkably easy, and is a cakewalk to integrate with platforms like Travis.Cl.
+- [Surge.sh](https://surge.sh) is the bee's knees. Surge lets you publish HTML, CSS, and JS for free, without leaving the command line. It's remarkably easy, and is a cakewalk to integrate with platforms like Travis.Cl for continuous integration.
 
-- Jquery is, well, Jquery. It helps me with some of the magic, like a menu that highlights the current section on the main page, image galleries with a lightbox, and a whole bunch of other goodies. 
+- Jquery is, well, Jquery. It helps me with some of the magic, like a menu that highlights the current section on the main page, image galleries with a lightbox, and a whole bunch of other goodies.
 
 ## Technology
 * [HarpJS](http://harpjs.com)
@@ -31,6 +31,7 @@ In fall 2015 I decided that I needed to switch paths. I love photography, it rem
 * [Jquery](http://jquery.com)
 * [robots.txt](http://www.robotstxt.org)
 * [humans.txt](http://humanstxt.org)
+* [https://travis-ci.org/](Travis.Cl)
 
 
 ### If you really want to use this for something...
