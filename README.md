@@ -13,8 +13,8 @@ Fast forward a few more years, and you've reached 2014. I was finishing up my Ph
 
 Fast forward again, and you're in the present day. My code is starting to look somewhat respectable. I comment the stuff that needs explaining, and I make full use of template engines, frameworks, partials, and the whatever else is out there to make dev life easier.
 
-### About - iammatthias.com
-In fall 2015 I decided that I needed to switch paths. I love photography, it remains my biggest passion, but I needed something more intellectually stimulating as a career. So I started reading books on Lean/Agile startups, and joined the Product Management Immersive at General Assembly. I learned a lot, and found myself with a second portfolio. This one wasn't images, though. It was code.
+### iammatthias.com
+In fall 2015 I decided that I needed to switch paths. I love photography, it remains my biggest passion, but I needed something more intellectually stimulating as a career. So I started reading books on Lean/Agile startups, and joined the Product Management Immersive at General Assembly in the spring of 2016. I learned a lot, and found myself with a second portfolio. This one wasn't images, though. It was code.
 
 ## Technology
 * [HarpJS](http://harpjs.com)
