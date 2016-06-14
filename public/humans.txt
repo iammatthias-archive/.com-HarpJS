@@ -1,22 +1,45 @@
-		/* AUTHOR */
+/* AUTHOR */
 
-	Me: Matthias Jordan
-	Contact: me [at] iammatthias.com
-	Twitter: @iammatthias
-	From: Santa Monica, California, USA
+Me: Matthias Jordan
+Contact: me [at] iammatthias.com
+Twitter: @iammatthias
+From: Santa Monica, California, USA
 
-		/* BUILT WITH */
+/* BUILT WITH */
 
-	[HarpJS](http://harpjs.com)
-	[Milligram](http://milligram.github.io)
-	[Surge](https://surge.sh)
-	[humans.txt](http://humanstxt.org)
-	[Google Webmaster](http://www.google.com/webmasters/)
+## Technology
+* [HarpJS](http://harpjs.com)
+- The site was built using [HarpJS](http://harpjs.com). It's a great static site generator, and a fantastic JS based alternative to platforms like Jekyll(Ruby), Middleman(Ruby), or Hugo(Go). Harp bills itself as "The static web server with built-in preprocessing." and has built in support for Jade, Markdown, EJS, CoffeeScript, Sass, LESS and Stylus.
+
+* [Bulma](http://bulma.io)
+- [Bulma](http://bulma.io) is a fairly new, modern CSS framework based on Flexbox. You can use it as a single CSS file, or mess with the SASS source itself. It's lightweight, and has some pretty impressive features.
+
+	* [Btns](http://mrmrs.io/btns/)
+	* [Colors](http://clrs.cc)
+	* [Links](http://mrmrs.io/links/)
+	* [Gutenberg](http://matejlatin.github.io/Gutenberg/)
+
+* [Surge.sh](https://surge.sh)
+- [Surge.sh](https://surge.sh) is the bee's knees. Surge lets you publish HTML, CSS, and JS for free, without leaving the command line. It's remarkably easy, and is a cakewalk to integrate with platforms like Travis.Cl for continuous integration.
+
+* [Jquery](http://jquery.com)
+	* [jquery.lazyload](http://www.appelsiini.net/projects/lazyload)
+	* [Swipebox](http://brutaldesign.github.io/swipebox/)
+	* [CookieBar](http://carlwoodhouse.github.io/jquery.cookieBar/)
+	* [ScrollSpy](https://github.com/sxalexander/jquery-scrollspy)
+
+* [Macy](http://macyjs.com)
+
+
+
+* [robots.txt](http://www.robotstxt.org)
+* [humans.txt](http://humanstxt.org)
+* [https://travis-ci.org/](Travis.Cl)
 
 
 		/* SITE */
 
-	Last update: 04/20/2016
+	Last update: 06/13/2016
 	Language: English
 	Doctype:HTML5
 	IDE: Atom, Chrome, Safari, Github

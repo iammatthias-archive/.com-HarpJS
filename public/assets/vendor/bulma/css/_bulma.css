@@ -5152,7 +5152,7 @@ a.nav-item.is-tab.is-active {
   }
   .nav-menu .nav-item {
     border-top: 1px solid rgba(211, 214, 219, 0.5);
-    padding: 10px;
+    padding: 5px;
   }
   .nav-menu.is-active {
     display: block;
@@ -5495,7 +5495,7 @@ a.panel-block:hover {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #d3d6db;
+  
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6642,7 +6642,6 @@ a.panel-block:hover {
 
 .footer {
   background: #f5f7fa;
-  padding: 40px 20px 80px;
 }
 
 .footer a, .footer a:visited {
