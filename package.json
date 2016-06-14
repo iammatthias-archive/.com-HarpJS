@@ -1,13 +1,14 @@
 {
   "name": "iammatthias",
-  "description": "Replacing Milligram with Bulma.",
+  "description": "Portfolio",
   "author": {
     "name": "Matthias Jordan",
     "url": "http://iammatthias.com"
   },
+  "license" : "Copyright © Matthias Jordan",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/iammatthias/.com"
   },
   "keywords": [
     "harp",
