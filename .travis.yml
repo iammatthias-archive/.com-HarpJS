@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "0.12"
 after_success:
-  - harp compile && surge --project ./www --domain iammatthias.com
+  - npm install && harp compile && surge --project ./www --domain iammatthias.com
