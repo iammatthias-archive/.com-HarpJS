@@ -16,23 +16,34 @@ Fast forward again, and you're in the present day. My code is starting to look s
 ### About - iammatthias.com
 In fall 2015 I decided that I needed to switch paths. I love photography, it remains my biggest passion, but I needed something more intellectually stimulating as a career. So I started reading books on Lean/Agile startups, and joined the Product Management Immersive at General Assembly. I learned a lot, and found myself with a second portfolio. This one wasn't images, though. It was code.
 
-- The site was built using [HarpJS](http://harpjs.com). It's a great static site generator, and a fantastic JS based alternative to platforms like Jekyll(Ruby), Middleman(Ruby), or Hugo(Go). Harp bills itself as "The static web server with built-in preprocessing." and has built in support for Jade, Markdown, EJS, CoffeeScript, Sass, LESS and Stylus.
-
-- [Bulma](http://bulma.io) is a fairly new, modern CSS framework based on Flexbox. You can use it as a single CSS file, or mess with the SASS source itself. It's lightweight, and has some pretty impressive features.
-
-- [Surge.sh](https://surge.sh) is the bee's knees. Surge lets you publish HTML, CSS, and JS for free, without leaving the command line. It's remarkably easy, and is a cakewalk to integrate with platforms like Travis.Cl for continuous integration.
-
-- Jquery is, well, Jquery. It helps me with some of the magic, like a menu that highlights the current section on the main page, image galleries with a lightbox, and a whole bunch of other goodies.
-
 ## Technology
 * [HarpJS](http://harpjs.com)
+- The site was built using [HarpJS](http://harpjs.com). It's a great static site generator, and a fantastic JS based alternative to platforms like Jekyll(Ruby), Middleman(Ruby), or Hugo(Go). Harp bills itself as "The static web server with built-in preprocessing." and has built in support for Jade, Markdown, EJS, CoffeeScript, Sass, LESS and Stylus.
+
 * [Bulma](http://bulma.io)
+- [Bulma](http://bulma.io) is a fairly new, modern CSS framework based on Flexbox. You can use it as a single CSS file, or mess with the SASS source itself. It's lightweight, and has some pretty impressive features.
+
+	* [Btns](http://mrmrs.io/btns/)
+	* [Colors](http://clrs.cc)
+	* [Links](http://mrmrs.io/links/)
+	* [Gutenberg](http://matejlatin.github.io/Gutenberg/)
+
 * [Surge.sh](https://surge.sh)
+- [Surge.sh](https://surge.sh) is the bee's knees. Surge lets you publish HTML, CSS, and JS for free, without leaving the command line. It's remarkably easy, and is a cakewalk to integrate with platforms like Travis.Cl for continuous integration.
+
 * [Jquery](http://jquery.com)
+	* [jquery.lazyload](http://www.appelsiini.net/projects/lazyload)
+	* [Swipebox](http://brutaldesign.github.io/swipebox/)
+	* [CookieBar](http://carlwoodhouse.github.io/jquery.cookieBar/)
+	* [ScrollSpy](https://github.com/sxalexander/jquery-scrollspy)
+
+* [Macy](http://macyjs.com)
+
+
+
 * [robots.txt](http://www.robotstxt.org)
 * [humans.txt](http://humanstxt.org)
 * [https://travis-ci.org/](Travis.Cl)
-
 
 ### If you really want to use this for something...
 > $ sudo npm install -g harp
