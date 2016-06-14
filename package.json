@@ -5,16 +5,12 @@
     "name": "Matthias Jordan",
     "url": "http://iammatthias.com"
   },
-  "license" : "Copyright © Matthias Jordan",
+  "license" : "MIT",
+  "copyright" : "Copyright © Matthias Jordan",
   "repository": {
     "type": "git",
     "url": "https://github.com/iammatthias/.com"
   },
-  "keywords": [
-    "harp",
-    "ejs",
-    "bower"
-  ],
   "dependencies": {},
   "devDependencies": {
     "harp": "^0.20.3",
