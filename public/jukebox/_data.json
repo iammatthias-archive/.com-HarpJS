@@ -1,6 +1,10 @@
 {
     "index" : {
-"title": "Jukebox",
+"title": "I AM MATTHIAS",
+
+"meta": {
+    "title": "I AM MATTHIAS - Jukebox"
+},
 "description": "Multi-source, cross platform streaming app.",
 "name": "Matthias Jordan",
 "email": "me@iammatthias.com",

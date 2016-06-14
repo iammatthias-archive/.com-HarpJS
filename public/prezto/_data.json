@@ -1,6 +1,9 @@
 {
     "index" : {
 "title": "Personalized Prezto ZSH Prompt",
+"meta": {
+    "title": "I AM MATTHIAS - Prezto"
+},
 "description": "A customized prompt for the Prezto ZSH framework.",
 "name": "Matthias Jordan",
 "email": "me@iammatthias.com",

@@ -1,6 +1,9 @@
 {
     "index" : {
 "title": "Tufte HarpJS Boilerplate",
+"meta": {
+    "title": "I AM MATTHIAS - Tufte HarpJS Boilerplate"
+},
 "description": "A HaprJS Boilerplate based on Tufte CSS.",
 "name": "Matthias Jordan",
 "email": "me@iammatthias.com",
