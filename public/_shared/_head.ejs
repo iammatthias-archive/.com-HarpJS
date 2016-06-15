@@ -1,7 +1,16 @@
 <meta charset="utf-8">
-<title><%= meta.title %></title>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<base href="http://iammatthias.com/">
+
+<title><%= meta.title %></title>
+<meta property="og:title" content="<%= meta.title %>" />
 <meta name="description" content="<%= meta.description %>">
+<meta property="og:description" content="<%= meta.description %>" />
+<meta property="og:image" content="<%= config.assets.folder_img %>/logo.svg" />
+<link rel="shortcut icon" href="<%= config.assets.folder_img %>/logo.svg" type="image/x-icon" />
+
 
 <!-- CSS -->
 <link href="<%= config.assets.folder_css %>/main.css" media="all" rel="stylesheet" />
