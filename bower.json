@@ -22,7 +22,8 @@
         "jquery" : "*",
         "cookiebar" : "carlwoodhouse/jquery.cookieBar",
         "swipebox" : "brutaldesign/swipebox",
-        "jquery.lazyload" : "*"
+        "jquery.lazyload" : "*",
+        "ionicons" : "*"
 
     },
 
