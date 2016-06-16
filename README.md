@@ -2,6 +2,11 @@ iammatthias.com
 ======
 **http://iammatthias.com** is my personal website. It has a small collection of open source work, client projects, and my photography.
 
+## To Do
+
+- [ ] Divorce image assets from site, move to Cloudinary/some image cdn 
+
+
 ### About
 I launched my first website in 2004. It was a terrible site built using the now defunct, and always terrible, [iWeb](https://en.wikipedia.org/wiki/IWeb). It worked for what I wanted, a small site with some simple image galleries, and it sparked an interest in the Web. But yeah, it was terrible. Because iWeb.
 
