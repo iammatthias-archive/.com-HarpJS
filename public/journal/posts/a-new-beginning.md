@@ -4,7 +4,7 @@ My first camera was film affair, courtesy of my grandfather. The switch to digit
 
 I had arrived on the digital frontier.
 
-Since that first launch my web presence has undergone multiple evolutions. I had the "too much time on social media" phase, followed quickly by an ill-advised attempt to use early Tumblr as a CMS in 2008. I dabbled in Wordpress, gave up my domain and used Flickr, started over upon realizing the need for a site, and built a new site in 2013 using [Ghost](http://ghost.org) for the backend. And then for some reason I launched a barebones landing page on GitHub Pages, and pointed the photography section at [Exposure](http://exposure.co).
+Since that first launch my web presence has undergone multiple evolutions. I had the "too much time on social media" phase, followed quickly by an ill-advised attempt to use early Tumblr as a CMS in 2008. I dabbled in Wordpress, gave up my domain and used Flickr, started over upon realizing the need for a site, and built a new site in 2013 using [Ghost](https://ghost.org) for the backend. And then for some reason I launched a barebones landing page on GitHub Pages, and pointed the photography section at [Exposure](https://exposure.co).
 
 I stayed with that bounce-rate inflating system for awhile.
 
