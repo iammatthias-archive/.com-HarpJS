@@ -17,7 +17,8 @@
                 "folder_js"     : "/assets/js",
                 "folder_bower"  : "/assets/vendor",
                 "folder_img"  : "/assets/img",
-                "folder_shared"  : "/_shared"
+                "folder_shared"  : "/_shared",
+                "cdn"  : "http://cdn.iammatthias.com/"
             }
         }
     }
