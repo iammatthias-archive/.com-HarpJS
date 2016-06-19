@@ -8,7 +8,8 @@ iammatthias.com
 
 ## To Do
 
-- [ ] Divorce image assets from site, move to Cloudinary/some image cdn 
+- [X] Images are now in an Amazon S3 bucket with Cloudfront.
+- [ ] Most the rest of the assets folder to the bucket. 
 
 
 ### About
