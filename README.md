@@ -14,18 +14,9 @@ iammatthias.com
 
 
 ### About
-I launched my first website in 2004. It was a terrible site built using the now defunct, and always terrible, [iWeb](https://en.wikipedia.org/wiki/IWeb). It worked for what I wanted, a small site with some simple image galleries, and it sparked an interest in the Web. But yeah, it was terrible. Because iWeb.
+This is the current iteration of my site. There used to be this big long explanation here that went through almost every version of my portfolio that's come into existence since 2004. But let's be honest, it was an unnecessary amount of word vomit.
 
-After that, I continued with horrible sites built with the wrong software. I think it was late 2005, or early 2006, but mkjimagery.com found a new home on GoDaddy's server after being built out with the page creation software baked into Adobe Lightroom. Flash ftw, right? Those were the days. The dark, terrible, frightening days when Flash ruled all and still had Macromedia branding despite being purchased by Adobe.
-
-Lightroom's Flash page generator introduced me to Fireworks(which I never really mastered), and then to Dreamweaver. That was exciting. Dreamweaver still was held in decent regard, and was one of the few code editors that had a somewhat decent WYSIWYG editor built in(nah, it sucked). Slowly but surely, I was growing interested in breaking away from what apps could build for me.
-
-Fast forward a few more years, and you've reached 2014. I was finishing up my Photography degree, and dealing with a horrible managed site split over 3 platforms. Part of it, the landing page, was on Github Pages. My image galleries were on Exposure.co, and my blog was on a self hosted copy of the Ghost Beta. It was a horriblely broken mess of poorly written code and unoptimized assets. Something had to change, so I started studying.
-
-Fast forward again, and you're in the present day. My code is starting to look somewhat respectable. I comment the stuff that needs explaining, and I make full use of template engines, frameworks, partials, and the whatever else is out there to make dev life easier.
-
-### iammatthias.com
-In fall 2015 I decided that I needed to switch paths. I love photography, it remains my biggest passion, but I needed something more intellectually stimulating as a career. So I started reading books on Lean/Agile startups, and joined the Product Management Immersive at General Assembly in the spring of 2016. I learned a lot, and found myself with a second portfolio. This one wasn't images, though. It was code.
+This is the code for http:iammatthias.com: 2016 Edition
 
 ## Technology
 #### Static Site Generator
