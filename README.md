@@ -9,7 +9,8 @@ iammatthias.com
 ## To Do
 
 - [X] Images are now in an Amazon S3 bucket with Cloudfront.
-- [ ] Most the rest of the assets folder to the bucket. 
+	- [X] All media assets now on S3 bucket
+- [ ] Most the rest of the assets folder to the bucket.
 
 
 ### About
