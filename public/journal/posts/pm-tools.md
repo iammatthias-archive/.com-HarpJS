@@ -14,6 +14,7 @@ Trello is great. I use Trello boards to organize small personal projects, like c
 
 ### Google Drive / Dropbox
 ![Drive](http://cdn.iammatthias.com/media/google-drive-logo.png)
+
 ![Dropbox](http://cdn.iammatthias.com/media/dropbox_blue.png)
 
 Two different platforms, but they are similar enough that I feel comfortable addressing them simultainiously. Teams always need methods for sharing files. Sometimes it’s a design comp from UX, other times it might be a full directory of deliverables for a client. Either way, cloud platforms that allow for document storage and collaboration are fantastic.
