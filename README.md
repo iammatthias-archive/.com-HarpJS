@@ -28,20 +28,25 @@ Fast forward again, and you're in the present day. My code is starting to look s
 In fall 2015 I decided that I needed to switch paths. I love photography, it remains my biggest passion, but I needed something more intellectually stimulating as a career. So I started reading books on Lean/Agile startups, and joined the Product Management Immersive at General Assembly in the spring of 2016. I learned a lot, and found myself with a second portfolio. This one wasn't images, though. It was code.
 
 ## Technology
+#### Static Site Generator
 * [HarpJS](http://harpjs.com)
 - The site was built using [HarpJS](http://harpjs.com). It's a great static site generator, and a fantastic JS based alternative to platforms like Jekyll(Ruby), Middleman(Ruby), or Hugo(Go). Harp bills itself as "The static web server with built-in preprocessing." and has built in support for Jade, Markdown, EJS, CoffeeScript, Sass, LESS and Stylus.
 
+#### CSS Framework
 * [Bulma](http://bulma.io)
 - [Bulma](http://bulma.io) is a fairly new, modern CSS framework based on Flexbox. You can use it as a single CSS file, or mess with the SASS source itself. It's lightweight, and has some pretty impressive features.
 
+	#### Extra CSS libraries
 	* [Btns](http://mrmrs.io/btns/)
 	* [Colors](http://clrs.cc)
 	* [Links](http://mrmrs.io/links/)
 	* [Gutenberg](http://matejlatin.github.io/Gutenberg/)
 
+#### Hosting
 * [Surge.sh](https://surge.sh)
 - [Surge.sh](https://surge.sh) is the bee's knees. Surge lets you publish HTML, CSS, and JS for free, without leaving the command line. It's remarkably easy, and is a cakewalk to integrate with platforms like Travis.Cl for continuous integration.
 
+#### Javascript / Jquery
 * [Jquery](http://jquery.com)
 	* [jquery.lazyload](http://www.appelsiini.net/projects/lazyload)
 	* [Swipebox](http://brutaldesign.github.io/swipebox/)
