@@ -7,7 +7,7 @@ There had to be a better way.
 Jukebox was inspired by its namesake, the classic neon covered record players that crowdsourced the communal playlists for American diners. It finally saw the light of day in the spring of 2016, when I had the opportunity to serve a the Product Manager for a small team, and build out a working MVP(minimum viable product). At this point, users are able to create accounts, search and add songs to playlists from SoundCloud, and autoplay the added tracks.
 
 
-![Jukebox](../media/jukebox.jpg)
+![Jukebox](http://cdn.iammatthias.com/media/jukebox_ui.jpg)
 
 I worked closely with [Angel Pang - UX Designer](https://angelpangux.com) to rapidly iterate through a series of potential design for a future mobile app. Her help was invaluable, and we were able to establish a simple, and logical userflow.   
 
