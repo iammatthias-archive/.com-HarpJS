@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "0.12"
 after_success:
-  - npm install && harp compile && cssnano www/assets/css/main.css www/assets/css/main.css && surge --project ./www --domain iammatthias.com
+  - npm install && harp compile && cssnano ./www/assets/css/main.css ./www/assets/css/main.css && surge --project ./www --domain iammatthias.com
