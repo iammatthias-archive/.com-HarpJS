@@ -14,7 +14,8 @@
   "dependencies": {},
   "devDependencies": {
     "harp": "^0.20.3",
-    "surge": "^0.18.0"
+    "surge": "^0.18.0",
+    "cssnano-cli": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified.\""
