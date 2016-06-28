@@ -1,28 +1,3 @@
-/*
- *
- * GRADIENTS.CSS
- * v.1.0.0
- * @mrmrs
- *
- * Each color has a class for setting a gradient on
- * text & background
- *
- * - Aqua
- * - Blue
- * - Navy
- * - Teal
- * - Green
- * - Lime
- * - Yellow
- * - Orange
- * - Red
- * - Fuchshia
- * - Purple
- * - Maroon
- *
- */
-
-
 .bg-aqua-gradient {
   background: rgba(127,219,255,1);
   background: -webkit-linear-gradient(top, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%);
@@ -95,4 +70,3 @@
   background: -webkit-linear-gradient(top, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
   background: linear-gradient(to bottom, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
 }
-

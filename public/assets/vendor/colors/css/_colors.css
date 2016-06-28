@@ -1,28 +1,3 @@
-/*
-
-  COLORS
-  Better default colors for the web
-
-*/
-/* 
-
-   VARIABLES
-
-   - Cool
-   - Warm
-   - Gray Scale
-
-*/
-/*
-
-   SKINS
-   - Backgrounds
-   - Colors
-   - Border colors
-   - SVG fills
-   - SVG Strokes
-
-*/
 /* Backgrounds */
 .bg-navy { background-color: #001F3F; }
 .bg-blue { background-color: #0074D9; }
@@ -59,10 +34,10 @@
 .silver { color: #DDDDDD; }
 .gray { color: #AAAAAA; }
 .black { color: #111111; }
-/* Border colors 
+/* Border colors
 
-   Use with another border utility that sets border-width and style 
-   i.e .border { border-width: 1px); border-style: solid); }     
+   Use with another border utility that sets border-width and style
+   i.e .border { border-width: 1px); border-style: solid); }
 */
 .border--navy { border-color: #001F3F; }
 .border--blue { border-color: #0074D9; }
@@ -117,4 +92,3 @@
 .stroke-gray { stroke: #AAAAAA; }
 .stroke-silver { stroke: #DDDDDD; }
 .stroke-black { stroke: #111111; }
-

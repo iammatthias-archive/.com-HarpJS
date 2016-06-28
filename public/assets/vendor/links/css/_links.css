@@ -1,5 +1,3 @@
-/* links.css - v0.0.1 - "Smarter defaults for links" License MIT
-*/
 a { -webkit-transition: color .4s; transition: color .4s; color: #265C83; }
 
 a:link, a:visited { color: #265C83; }
