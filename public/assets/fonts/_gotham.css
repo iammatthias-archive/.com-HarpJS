@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Gotham-Book';
     src: url('../fonts/Gotham-Book.eot') format('eot');
-    src: url('../fonts/Gotham-Book.svg') format('svg');
+    src: url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg');
     src: url('../fonts/Gotham-Book.ttf') format('ttf');
     src: url('../fonts/Gotham-Book.woff') format('woff');
     font-weight: normal;
@@ -11,7 +11,7 @@
 @font-face {
     font-family: 'Gotham-Light';
     src: url('../fonts/Gotham-Light.eot') format('eot');
-    src: url('../fonts/Gotham-Light.svg') format('svg');
+    src: url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
     src: url('../fonts/Gotham-Light.ttf') format('ttf');
     src: url('../fonts/Gotham-Light.woff') format('woff');
     font-weight: normal;
@@ -21,7 +21,7 @@
 @font-face {
     font-family: 'Gotham-Thin';
       src: url('../fonts/Gotham-Thin.eot') format('eot');
-      src: url('../fonts/Gotham-Thin.svg') format('svg');
+      src: url('../fonts/Gotham-Thin.svg#Gotham-Thin') format('svg');
       src: url('../fonts/Gotham-Thin.ttf') format('ttf');
       src: url('../fonts/Gotham-Thin.woff') format('woff');
       font-weight: normal;
@@ -31,7 +31,7 @@
 @font-face {
     font-family: 'Gotham-Medium';
       src: url('../fonts/Gotham-Medium.eot') format('eot');
-      src: url('../fonts/Gotham-Medium.svg') format('svg');
+      src: url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
       src: url('../fonts/Gotham-Medium.ttf') format('ttf');
       src: url('../fonts/Gotham-Medium.woff') format('woff');
       font-weight: normal;
