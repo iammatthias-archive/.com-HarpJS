@@ -5247,7 +5247,7 @@ a.nav-item.is-tab.is-active {
 }
 
 .nav > .container > .nav-left > .nav-item:first-child:not(.is-tab) {
-  padding-left: 0;
+  padding-left: 10;
 }
 
 .nav > .container > .nav-right > .nav-item:last-child:not(.is-tab) {
