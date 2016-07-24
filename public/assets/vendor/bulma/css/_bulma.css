@@ -4050,11 +4050,7 @@ a.box:active {
   }
 }
 
-.columns {
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -10px;
-}
+
 
 .columns:last-child {
   margin-bottom: -10px;
