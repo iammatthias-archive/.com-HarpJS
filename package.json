@@ -17,6 +17,6 @@
     "surge": "^0.18.0"
   },
   "scripts": {
-    "test": "echo \"i put radio on the internet.\""
+    "test": "echo \"meep morp\""
   }
 }
