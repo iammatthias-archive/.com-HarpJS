@@ -25,6 +25,16 @@
         <p>
         <%= description %>
         </p>
+
+<p class="column is-11">
+Latest Posts:
+<% var keys = Object.keys(public.journal.posts._data);
+    for(var i=0; i<Math.min(3,keys.length); i++) { %>
+    <a href="/journal/posts/<%- keys[i] %>.html">
+<h4><%- public.journal.posts._data[keys[i]].posttitle %></h4><br /><%- public.journal.posts._data[keys[i]].date %><%- public.journal.posts._data[keys[i]].description %><br />
+</a>
+<% } %>
+</p>
 </div>
   <div class="column is-half has-text-left">
       <%- yield %>
