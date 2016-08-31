@@ -1,27 +1,27 @@
 @font-face {
   font-family: 'Gotham-Book';
-  src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-Book.woff') format('woff'), url('../fonts/Gotham-Book.ttf')  format('truetype'), url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+  src: url('../fonts/gotham/Gotham-Book.eot?#iefix') format('embedded-opentype'),  url('../fonts/gotham/Gotham-Book.woff') format('woff'), url('../fonts/gotham/Gotham-Book.ttf')  format('truetype'), url('../fonts/gotham/Gotham-Book.svg#Gotham-Book') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham-Light';
-  src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-Light.woff') format('woff'), url('../fonts/Gotham-Light.ttf')  format('truetype'), url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+  src: url('../fonts/gotham/Gotham-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/gotham/Gotham-Light.woff') format('woff'), url('../fonts/gotham/Gotham-Light.ttf')  format('truetype'), url('../fonts/gotham/Gotham-Light.svg#Gotham-Light') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham-Medium';
-  src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-Medium.woff') format('woff'), url('../fonts/Gotham-Medium.ttf')  format('truetype'), url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+  src: url('../fonts/gotham/Gotham-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/gotham/Gotham-Medium.woff') format('woff'), url('../fonts/gotham/Gotham-Medium.ttf')  format('truetype'), url('../fonts/gotham/Gotham-Medium.svg#Gotham-Medium') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham-Thin';
-  src: url('../fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-Thin.woff') format('woff'), url('../fonts/Gotham-Thin.ttf')  format('truetype'), url('../fonts/Gotham-Thin.svg#Gotham-Thin') format('svg');
+  src: url('../fonts/gotham/Gotham-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/gotham/Gotham-Thin.woff') format('woff'), url('../fonts/gotham/Gotham-Thin.ttf')  format('truetype'), url('../fonts/gotham/Gotham-Thin.svg#Gotham-Thin') format('svg');
   font-weight: normal;
   font-style: normal;
 }

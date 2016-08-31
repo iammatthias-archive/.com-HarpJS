@@ -1,33 +1,28 @@
 {
-    "name": "iammatthias",
-    "authors": [
-        "Matthias Jordan"
-    ],
-    "license": "MIT",
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components"
-    ],
-
-    "dependencies": {
-        "bulma" : "*",
-        "normalize.scss" : "*",
-        "btns" : "mrmrs/btns",
-        "gradients" : "mrmrs/gradients",
-        "colors" : "mrmrs/colors",
-        "links" : "mrmrs/links",
-        "macy" : "*",
-        "gutenberg" : "matejlatin/Gutenberg",
-        "jquery" : "*",
-        "cookiebar" : "carlwoodhouse/jquery.cookieBar",
-        "swipebox" : "brutaldesign/swipebox",
-        "jquery.lazyload" : "*",
-        "ionicons" : "*"
-
-    },
-
-    "devDependencies": {
-
-    }
+  "name": "iammatthias",
+  "authors": [
+    "Matthias Jordan"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bulma": "*",
+    "normalize.scss": "*",
+    "btns": "mrmrs/btns",
+    "gradients": "mrmrs/gradients",
+    "colors": "mrmrs/colors",
+    "links": "mrmrs/links",
+    "macy": "*",
+    "gutenberg": "matejlatin/Gutenberg",
+    "jquery": "*",
+    "cookiebar": "carlwoodhouse/jquery.cookieBar",
+    "swipebox": "brutaldesign/swipebox",
+    "jquery.lazyload": "*",
+    "ionicons": "*"
+  },
+  "devDependencies": {}
 }
