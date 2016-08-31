@@ -6,7 +6,7 @@
   </h1>
 
     <div class="columns is-mobile is-centered">
-  <div class="column is-11-mobile is-one-third-tablet is-5-desktop has-text-left">
+  <div class="column has-text-left">
       <% for(var slug in public.journal.posts._data){ %>
         <h1 class="f2"><a href="posts/<%= slug %>" id="blogtitle"><%= public.journal.posts._data[slug].posttitle %><br />
         <span class="f3"><%= public.journal.posts._data[slug].date %></span></a></h1>
