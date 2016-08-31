@@ -4,8 +4,20 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container is-centered">
-  <img src="<%= config.assets.cdn %>/media/logo.svg" id="logo"/>
+  <img src="<%= config.assets.cdn %>/media/logo.svg" id="logo"/><br />
+<div class="columns is-centered">
+<div class="column is-one-third">
+<code>
+Recent Post:
+<% var keys = Object.keys(public.journal.posts._data);
+    for(var i=0; i<Math.min(1,keys.length); i++) { %>
+    <a href="/journal/posts/<%- keys[i] %>.html">
+<h4><%- public.journal.posts._data[keys[i]].posttitle %></h4><br /><%- public.journal.posts._data[keys[i]].description %></a>
+<% } %>
+</code>
+</div>
     </div>
   </div>
+</div>
 
 </section>
