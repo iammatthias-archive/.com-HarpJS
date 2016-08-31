@@ -5,3 +5,5 @@ I thought this would be a cool way to display an image. It uses javascript to lo
 This is a work in progress.
 
 Feel free to play around with the JS Fiddle above, or check out the live demo here: http://imgframe.surge.sh
+
+Source can be found on Github: https://github.com/iammatthias/frame
