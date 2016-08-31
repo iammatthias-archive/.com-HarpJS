@@ -1,4 +1,12 @@
 {
+  "imgframe": {
+    "title": "I AM MATTHIAS",
+    "posttitle": "Image Frame",
+    "date": "August 30th, 2016",
+    "author": "matthias-jordan",
+    "description": "A simple way to frame an image with a copy of itself.",
+    "tags": ["js", "javascript", "picture"]
+  },
   "jukebox": {
     "title": "I AM MATTHIAS",
     "posttitle": "Jukebox",

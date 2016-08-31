@@ -5065,7 +5065,7 @@ a.box:active {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 .nav-item a {
@@ -5148,7 +5148,7 @@ a.nav-item.is-tab.is-active {
   }
   .nav-menu .nav-item {
     border-top: 1px solid rgba(211, 214, 219, 0.5);
-    padding: 5px;
+    padding: 25px;
   }
   .nav-menu.is-active {
     display: block;
@@ -5238,7 +5238,7 @@ a.nav-item.is-tab.is-active {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 50px;
+  min-height: 60px;
   width: 100%;
 }
 
