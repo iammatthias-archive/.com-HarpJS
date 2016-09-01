@@ -1,6 +1,6 @@
 // mobile menu drop down
 
-jQuery(document).ready(function ($) {
+$(document).ready(function ($) {
 
   var $toggle = $('.nav-toggle');
   var $menu = $('.nav-menu');
@@ -14,15 +14,14 @@ jQuery(document).ready(function ($) {
 // scroll on click
 
 
-$('a[href^="#"]').on('click', function (e) {
-    e.preventDefault();
-
-    var target = this.hash,
-    $target = $(target);
-
-  $('html, body').stop().animate({
- 'scrollTop': $target.offset().top
-}, 900, 'swing');
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 2000);
+    }
 });
 
 
@@ -45,7 +44,7 @@ Macy.init({
 
 // swipebox
 
-$( '.swipebox' ).swipebox( {
+$('.swipebox').swipebox( {
 		useCSS : true, // false will force the use of jQuery for animations
 		useSVG : true, // false to force the use of png for buttons
 		initialIndexOnArray : 0, // which image index to init when a array is passed
