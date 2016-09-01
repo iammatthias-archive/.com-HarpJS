@@ -26,16 +26,6 @@ $('a[href^="#"]').on('click', function (e) {
 });
 
 
-// bottom footer active link
-
-$('li > a').click(function() {
-    $('li').removeClass();
-    $(this).parent().addClass('is-active');
-});
-
-$("#footer-nav").scrollspy({ offset: -75 });
-
-
 //macy
 
 Macy.init({
@@ -76,6 +66,5 @@ $('.cookie-message').cookieBar({ closeButton : '.my-close-button' });
 };
 
 $.cookieBar();
-
 
 $("img.lazy").lazyload();
