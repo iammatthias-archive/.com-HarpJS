@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "0.12"
 after_success:
-  - npm install && harp compile && uglify -s ./www/assets/css/main.css -c -o ./www/assets/css/main.css && uglify -s ./www/assets/js/app.js -o ./www/assets/js/app.js && surge --project ./www --domain iammatthias.com
+  - npm install && harp compile && uglify -s ./www/assets/css/main.css -c -o ./www/assets/css/main.css && uglify -s ./www/assets/js/app.js, .www/assets/vendor/swipebox/src/js/jquery.swipebox.js, ./www/assets/vendor/jquery.lazyload/jquery.lazyload.js, .www/assets/vendor/cookiebar/jquery.cookieBar.js -o ./www/assets/js/app.js && surge --project ./www --domain iammatthias.com
