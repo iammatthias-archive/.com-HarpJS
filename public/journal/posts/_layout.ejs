@@ -14,7 +14,7 @@
   <div class="hero-body">
     <div class="container">
     <div class="columns is-centered">
-  <div class="column is-half has-text-left">
+  <div class="column is-half is-auto-mobile has-text-left">
         <h1 class="title">
         <%= posttitle %><br />
 
@@ -26,17 +26,17 @@
         <%= description %>
         </p>
 
-<p class="column is-11">
-Latest Posts:
+<div class="column is-two-thirds is-hidden-mobile">
+<h3>Latest Posts:</h3>
 <% var keys = Object.keys(public.journal.posts._data);
     for(var i=0; i<Math.min(3,keys.length); i++) { %>
     <a href="/journal/posts/<%- keys[i] %>.html">
-<h4><%- public.journal.posts._data[keys[i]].posttitle %></h4><br /><%- public.journal.posts._data[keys[i]].date %><%- public.journal.posts._data[keys[i]].description %><br />
-</a>
+<h4><%- public.journal.posts._data[keys[i]].posttitle %></h4><%- public.journal.posts._data[keys[i]].date %></a><br /><%- public.journal.posts._data[keys[i]].description %><br />
+
 <% } %>
-</p>
 </div>
-  <div class="column is-half has-text-left">
+</div>
+  <div class="column is-half is-12-mobile has-text-left">
       <%- yield %>
 </div>
 

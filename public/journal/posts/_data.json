@@ -1,7 +1,15 @@
 {
-  "imgframe": {
+  "imageframe": {
     "title": "I AM MATTHIAS",
     "posttitle": "Image Frame",
+    "date": "September 13th, 2016",
+    "author": "matthias-jordan",
+    "description": "Use a photo as its own background.",
+    "tags": ["js", "javascript", "picture", "ejs", "jade"]
+  },
+  "imgframe": {
+    "title": "I AM MATTHIAS",
+    "posttitle": "Img Frame Test",
     "date": "August 30th, 2016",
     "author": "matthias-jordan",
     "description": "A simple way to frame an image with a copy of itself.",
