@@ -1,6 +1,6 @@
 {
   "imageframe": {
-    "title": "I AM MATTHIAS",
+    "title": "I AM MATTHIAS - Image Frame",
     "posttitle": "Image Frame",
     "date": "September 13th, 2016",
     "author": "matthias-jordan",
@@ -8,7 +8,7 @@
     "tags": ["js", "javascript", "picture", "ejs", "jade"]
   },
   "imgframe": {
-    "title": "I AM MATTHIAS",
+    "title": "I AM MATTHIAS - Img Frame Test",
     "posttitle": "Img Frame Test",
     "date": "August 30th, 2016",
     "author": "matthias-jordan",
@@ -16,7 +16,7 @@
     "tags": ["js", "javascript", "picture"]
   },
   "jukebox": {
-    "title": "I AM MATTHIAS",
+    "title": "I AM MATTHIAS - Jukebox",
     "posttitle": "Jukebox",
     "date": "May 5th, 2016",
     "author": "matthias-jordan",
@@ -24,7 +24,7 @@
     "tags": ["mean", "github", "heroku"]
   },
   "pm-tools": {
-    "title": "I AM MATTHIAS",
+    "title": "I AM MATTHIAS - Product Management Tools",
     "posttitle": "Product Management Tools",
     "date": "April 19, 2016",
     "author": "matthias-jordan",
@@ -32,7 +32,7 @@
     "tags": ["invision", "trello", "google drive", "dropbox", "slack"]
   },
   "harpjs-milligram-surge": {
-    "title": "I AM MATTHIAS",
+    "title": "I AM MATTHIAS - HarpJS, Milligram CSS, and Surge.sh",
     "posttitle": "HarpJS, Milligram CSS, and Surge.sh",
     "date": "April 19, 2016",
     "author": "matthias-jordan",
@@ -40,7 +40,7 @@
     "tags": ["harp", "milligram", "surge"]
   },
   "a-new-beginning": {
-    "title": "I AM MATTHIAS",
+    "title": "I AM MATTHIAS - A New Beginning",
     "posttitle": "A New Beginning",
     "date": "April 18, 2016",
     "author": "matthias-jordan",
