@@ -14,7 +14,7 @@
   <div class="hero-body">
     <div class="container">
     <div class="columns is-centered">
-  <div class="column is-half is-auto-mobile has-text-left">
+  <div class="column is-half has-text-left">
         <h1 class="title">
         <%= posttitle %><br />
 
@@ -36,7 +36,7 @@
 <% } %>
 </div>
 </div>
-  <div class="column is-half is-12-mobile has-text-left">
+  <div class="column is-half has-text-left">
       <%- yield %>
 </div>
 
@@ -48,6 +48,7 @@
 
 </section>
 <%- partial("/../../_shared/_copy") %>
+<%- partial("/../../_shared/_footer_script") %>
 
     </body>
 </html>
