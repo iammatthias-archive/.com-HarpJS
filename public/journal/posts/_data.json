@@ -1,4 +1,12 @@
 {
+  "zshell": {
+    "title": "I AM MATTHIAS - Custom ZSH Prompt",
+    "posttitle": "Custom ZSH Prompt",
+    "date": "September 19th, 2016",
+    "author": "matthias-jordan",
+    "description": "I switched from Bash to ZSH, and customized my shell prompt.",
+    "tags": ["bash", "zsh", "shell", "prezto", "motd"]
+  },
   "imageframe": {
     "title": "I AM MATTHIAS - Image Frame",
     "posttitle": "Image Frame",
