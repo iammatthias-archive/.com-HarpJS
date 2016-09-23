@@ -1,12 +1,24 @@
-{
-  "zshell": {
+{ 
+
+"firstweek-surfair": {
+    "title": "I AM MATTHIAS - First Week at Surf Air - Retrospective",
+    "posttitle": "First Week at Surf Air - Retrospective",
+    "date": "September 23rd, 2016",
+    "author": "matthias-jordan",
+    "description": "I started a new job, and I love it.",
+    "tags": ["word", "surf air"]
+  },
+
+
+"zshell": {
     "title": "I AM MATTHIAS - Custom ZSH Prompt",
     "posttitle": "Custom ZSH Prompt",
     "date": "September 19th, 2016",
     "author": "matthias-jordan",
     "description": "I switched from Bash to ZSH, and customized my shell prompt.",
     "tags": ["bash", "zsh", "shell", "prezto", "motd"]
-  },
+  }
+,
   "imageframe": {
     "title": "I AM MATTHIAS - Image Frame",
     "posttitle": "Image Frame",
