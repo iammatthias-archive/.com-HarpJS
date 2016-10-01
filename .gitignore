@@ -3,3 +3,4 @@
 Thumbs.db
 .Trashes
 node_modules/
+.travis,yml
