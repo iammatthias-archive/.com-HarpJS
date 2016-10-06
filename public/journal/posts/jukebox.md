@@ -7,9 +7,9 @@ There had to be a better way.
 Jukebox was inspired by its namesake, the classic neon covered record players that crowdsourced the communal playlists for American diners. It finally saw the light of day in the spring of 2016, when I had the opportunity to serve a the Product Manager for a small team, and build out a working MVP(minimum viable product). At this point, users are able to create accounts, search and add songs to playlists from SoundCloud, and autoplay the added tracks.
 
 
-![Jukebox](http://cdn.iammatthias.com/media/jukebox_ui.jpg)
+![Jukebox][image-1]
 
-I worked closely with [Angel Pang - UX Designer](https://angelpangux.com) to rapidly iterate through a series of potential design for a future mobile app. Her help was invaluable, and we were able to establish a simple, and logical userflow.   
+I worked closely with [Angel Pang - UX Designer][1] to rapidly iterate through a series of potential design for a future mobile app. Her help was invaluable, and we were able to establish a simple, and logical userflow.  
 
 More information can be found at http://jukebox.surge.sh or on the repo: https://github.com/jfadem82/jukebox
 
@@ -18,10 +18,18 @@ A live demo of the platform can be found here: https://jukebox-pmi.herokuapp.com
 
 ## Team
 
-[Matthias Jordan - Product Manager](http://iammatthias.com)
+[Matthias Jordan - Product Manager][2]
 
-[Angel Pang - UX Designer](https://angelpangux.com)
+[Angel Pang - UX Designer][3]
 
-[Josh Fadem - Developer](http://joshfadem.la)
+[Josh Fadem - Developer][4]
 
-[Nate Castor - Developer](https://github.com/nathan-castor)
+[Nate Castor - Developer][5]
+
+[1]:	https://angelpangux.com
+[2]:	http://iammatthias.com
+[3]:	https://angelpangux.com
+[4]:	http://joshfadem.la
+[5]:	https://github.com/nathan-castor
+
+[image-1]:	https://cdn.iammatthias.com/media/jukebox_ui.jpg
