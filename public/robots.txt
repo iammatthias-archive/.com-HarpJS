@@ -1,5 +1,14 @@
-User-agent: *
-Allow: /
 # A robot may not injure a human being or through inaction allow a human being to come to harm.
 # A robot must obey the orders given it by human beings, except where such orders would conflict with the First Law
 # A robot must protect its own existence, as long as such protection does not conflict with the First or Second Laws.
+
+User-Agent: HAL
+Disallow: /01001010_01110101_01110011_01110100_00100000_01110111_01101000_01100001_01110100_00100000_01100100_01101111_00100000_01111001_01101111_01110101_00100000_01110100_01101000_01101001_01101110_01101011_00100000_01111001_01101111_01110101_00100111_01110010_01100101_00100000_01100100_01101111_01101001_01101110_01100111_00101100_00100000_01000100_01100001_01110110_01100101_00111111
+
+User-Agent: bender
+Disallow: /my_shiny_metal_ass
+
+User-agent: *
+Allow: /
+Disallow: /*.json
+Disallow: /cname
