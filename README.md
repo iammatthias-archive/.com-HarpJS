@@ -13,7 +13,7 @@ iammatthias.com
 - [ ] Most the rest of the assets folder to the bucket.
 
 
-### About
+### About 
 This is the current iteration of my site. There used to be this big long explanation here that went through almost every version of my portfolio that's come into existence since 2004. But let's be honest, it was an unnecessary amount of word vomit.
 
 This is the code for http:iammatthias.com: 2016 Edition
