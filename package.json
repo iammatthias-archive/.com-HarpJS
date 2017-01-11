@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "harp": "^0.20.3",
+    "harp": "^0.23.0",
     "surge": "^0.18.0"
   },
   "scripts": {
