@@ -14,8 +14,7 @@
   "dependencies": {},
   "devDependencies": {
     "harp": "^0.20.3",
-    "surge": "^0.18.0",
-    "uglify": "^0.1.5"
+    "surge": "^0.18.0"
   },
   "scripts": {
     "test": "echo \"meep morp\""
