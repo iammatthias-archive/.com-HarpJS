@@ -1,10 +1,10 @@
+This is my old site, built using HarpJS. Keeping the repo around for posterity. 
+
+
+
 iammatthias.com
 
 [![Build Status](https://travis-ci.org/iammatthias/.com.svg?branch=master)](https://travis-ci.org/iammatthias/.com)
-
-
-======
-**http://iammatthias.com** is my personal website. It has a small collection of open source work, client projects, and my photography.
 
 ## To Do
 
